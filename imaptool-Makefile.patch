@@ -1,0 +1,17 @@
+diff -Nru imaptool-0.9-orig/Makefile imaptool-0.9/Makefile
+--- imaptool-0.9-orig/Makefile	2000-01-16 00:01:41.000000000 +0100
++++ imaptool-0.9/Makefile	2004-06-13 15:24:02.668107072 +0200
+@@ -1,11 +1,11 @@
+ #Do you want to use jpeg-library???
+-JPEG_INCLUDE=-I/usr/local/include/
++JPEG_INCLUDE=
+ JPEG_CHOICE=-DUSE_JPEG_LIB $(JPEG_INCLUDE)
+ #JPEG_CHOICE=
+ LIBRARIES=-lXt -lXaw -lXmu -lXext -lX11 -ljpeg -lm
+ #LIBRARIES=-lXt -lXaw -lXmu -lXext -lX11 -lm
+ 
+-CC=gcc -I/usr/X11R6/include/
++CC=gcc -I/usr/X11R6/include/ $(CFLAGS)
+ 
+ LIBDIR=-L/usr/local/lib -L/usr/X11R6/lib
+ OBJECTS=imaptool.o file2pixmap.o dgif_lib.o gif_err.o gifalloc.o
