@@ -20,7 +20,7 @@ formats are supported.
 
 %description -l pl
 imaptool pomaga w tworzeniu map HTML obrazów. Wiêcej na ten temat
-dowiesz siê, gdy poczytasz o tagach AREA i MAP w specyfikacji HTML.
+mo¿na znale¼æ w opisie znaczników AREA i MAP w specyfikacji HTML.
 Program obs³uguje formaty GIF i JPEG.
 
 %prep
@@ -29,7 +29,7 @@ Program obs³uguje formaty GIF i JPEG.
 
 %build
 %{__make} \
-	LIBDIR="-L%{_prefix}/X11R6/%{_lib}"
+	LIBDIR="-L/usr/X11R6/%{_lib}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
