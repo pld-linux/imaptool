@@ -1,5 +1,5 @@
 Summary:	An utility for creating client-side HTML image maps
-Summary(pl):	Narzêdzie do tworzenia map HTML obrazów
+Summary(pl.UTF-8):   NarzÄ™dzie do tworzenia map HTML obrazÃ³w
 Name:		imaptool
 Version:	0.9
 Release:	3
@@ -18,10 +18,10 @@ imaptool helps in the creation of client-side HTML image maps. For
 more information read about HTML AREA and MAP tags. Both GIF and JPEG
 formats are supported.
 
-%description -l pl
-imaptool pomaga w tworzeniu map HTML obrazów. Wiêcej na ten temat
-mo¿na znale¼æ w opisie znaczników AREA i MAP w specyfikacji HTML.
-Program obs³uguje formaty GIF i JPEG.
+%description -l pl.UTF-8
+imaptool pomaga w tworzeniu map HTML obrazÃ³w. WiÄ™cej na ten temat
+moÅ¼na znaleÅºÄ‡ w opisie znacznikÃ³w AREA i MAP w specyfikacji HTML.
+Program obsÅ‚uguje formaty GIF i JPEG.
 
 %prep
 %setup -q
