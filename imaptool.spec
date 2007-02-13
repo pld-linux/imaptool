@@ -1,5 +1,5 @@
 Summary:	An utility for creating client-side HTML image maps
-Summary(pl.UTF-8):   Narzędzie do tworzenia map HTML obrazów
+Summary(pl.UTF-8):	Narzędzie do tworzenia map HTML obrazów
 Name:		imaptool
 Version:	0.9
 Release:	3
