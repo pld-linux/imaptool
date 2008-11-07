@@ -2,7 +2,7 @@ Summary:	An utility for creating client-side HTML image maps
 Summary(pl.UTF-8):	Narzędzie do tworzenia map HTML obrazów
 Name:		imaptool
 Version:	0.9
-Release:	3
+Release:	4
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.sspitzer.org/imaptool/%{name}-%{version}.tar.gz
